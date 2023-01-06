@@ -110,3 +110,34 @@
   font-weight: 500;
   font-size: 19px;
 }
+
+/* do not waste time section styles */
+.do-not-waste-parent {
+  background-image: url(../images/watch.png);
+  height: 300px;
+}
+.do-not-waste-text {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  height: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 64px;
+  border-radius: 8px;
+}
+.do-not-waste-text h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 21px;
+}
+.do-not-waste-text button {
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 14px 24px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 14px;
+}
