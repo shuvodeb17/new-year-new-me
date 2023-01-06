@@ -40,7 +40,6 @@
   color: #fff;
 }
 
-
 /* failures of previous year styles */
 .failures-wrapper {
   margin-top: 62px;
@@ -78,4 +77,36 @@
   color: #14c86e;
   font-size: 19px;
   margin-right: 3px;
+}
+
+/* my plan styles */
+.my-plan-title {
+  text-align: center;
+  color: #151414;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+.my-plan-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 86px;
+  margin-bottom: 124px;
+}
+.plan-card img {
+  width: 74px;
+  margin-bottom: 24px;
+}
+.plan-card h1 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.plan-card p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 19px;
 }
