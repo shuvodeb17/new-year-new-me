@@ -39,3 +39,43 @@
   background: #14c86e;
   color: #fff;
 }
+
+
+/* failures of previous year styles */
+.failures-wrapper {
+  margin-top: 62px;
+  margin-bottom: 80px;
+}
+.failures-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+.failures-left img {
+  width: 396px;
+}
+.failures-right h1 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+.failures-right p {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.failures-items-list li {
+  list-style-type: none;
+  margin-left: -39px;
+  color: #444343;
+  margin-bottom: 9px;
+}
+.failures-items-list .check-icon {
+  color: #14c86e;
+  font-size: 19px;
+  margin-right: 3px;
+}
